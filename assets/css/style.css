@@ -1483,3 +1483,21 @@ section {
 #footer .credits a {
   color: #9eccf4;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color:  #ffff;
+}
+
+/* Cor do cursor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #ed7d31;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:  #FFC000;
+}
