@@ -7,33 +7,36 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('assets/img/slide/banner.jpg');">
+          <div class="carousel-item active" style="background-image: url('assets/img/slide/banner-principal-1.jpeg'); background-attachment: fixed;">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Bem-vindos a <span><img src="assets/img/logo.png" alt="" class="img-fluid" width="200px"></h3></span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Mais Informações</a>
+                <p class="animate__animated animate__fadeInUp">Algo realmento novo chegou! A Sirius é uma empresa que foi moldada nos critérios mais rigorosos das montadoras automotivas. Seus produtos foram desenvolvidos e fabricados dentro dos mais altos padrões do segmento automobilístico.</p>
+                <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Mais Informações</a> -->
               </div>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/banner.jpg');">
+          <!-- <div class="carousel-item" style="background-image: url('assets/img/slide/banner-principal-1.jpeg');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <p class="animate__animated animate__fadeInUp">A Sirius é uma empresa com profissionais experientes, mas com uma mentalidade jovem, e que valoriza todos os elos da cadeia de distribuição.</p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Mais Informações</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/banner.jpg');">
+          <div class="carousel-item">
+            <video controls autoplay muted loop class="d-block w-100">
+              <source src="assets/img/videos/umboxing.mp4" type="video/mp4">
+            </video>
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <h2 class="animate__animated animate__fadeInDown"><span><img src="assets/img/logo.png" alt="" class="img-fluid" width="200px"></h3></span></h2>
+                <p class="animate__animated animate__fadeInUp">São diversos produtos que atendem vários modelos de veículos, dos mais variados. Torne-se um distribuidor oficial de uma marca leve com qualidade e sendo a única a oferecer 1 ano de garantia.</p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Mais Informações</a>
               </div>
             </div>

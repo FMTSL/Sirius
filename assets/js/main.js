@@ -1,11 +1,3 @@
-/**
-* Template Name: Mamba
-* Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 (function() {
   "use strict";
 
@@ -226,6 +218,17 @@
     }
   });
 
+    /**
+   * Init swiper sliders
+   */
+    function initSwiper() {
+      document.querySelectorAll('.swiper').forEach(function(swiper) {
+        let config = JSON.parse(swiper.querySelector('.swiper-config').innerHTML.trim());
+        new Swiper(swiper, config);
+      });
+    }
+    window.addEventListener('load', initSwiper);
+    
   /**
    * Animation on scroll
    */
@@ -244,3 +247,14 @@
   new PureCounter();
 
 })()
+
+
+
+
+
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6LfafOkpAAAAAHtOD7-Fa_p9hNLLbHgTQ-ChBqUY', {action: 'LOGIN'});
+    });
+  }
